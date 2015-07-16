@@ -6,33 +6,33 @@
 //to do: needs sound, visuals, title
 
 int s = 30; //side length of bumpers
+
 int rad; // ball radius
-int posx;
-int posy;
-int movex = 1;
-int movey = 1;
+int posx; // the ball's x-postion
+int posy; // the ball's y-position
+int movex = 1; // the ball's speed on the x-axis
+int movey = 1; // the ball's speed on the y-axis
+
 int maxMove = 6;
-int maxS = 60;
-int minS = 10;
+
 int maxRad = 50;
 int minRad = 15;
 int move = 3;
+
 int count = 0;
 int highCount = 0;
 int colorCount;
 int switchSpeed = 200;
-boolean makeBigger = false;
-boolean makeSmaller = false;
 color hitColor;
 color back;
 color color1 = color (137, 240, 255);
-color color2 = color (216, 94, 0);
-color color3 = color (218, 109, 214);
-color color4 = color (109, 218, 152);
-color color5 = color (218, 207, 109);
-color color6 = color (116, 109, 218);
-color color7 = color (218, 109, 120);
-color color8 = color (134, 28, 161);
+color color2 = ;
+color color3 = ;
+color color4 = ;
+color color5 = ;
+color color6 = ;
+color color7 = ;
+color color8 = ;
 color bar1, bar2, bar3, bar4, bar5, bar6, bar7, bar8, player;
 color[] colors = {
   color1, color2, color3, color4, color5, color6, color7, color8
